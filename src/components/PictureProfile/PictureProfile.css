@@ -1,0 +1,7 @@
+.picture{
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+    border: solid;
+    border-color: black;
+}
