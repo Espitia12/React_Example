@@ -1,0 +1,30 @@
+.LogTiltle {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.LogTiltle img{
+    background: #b9dfa6;
+    width: 8rem;
+    height: 8em;
+}
+
+.contentLTitlE hr{
+    height: 10px;
+    width: 90%;
+    background: #b9dfa6;
+    margin-top: 10px;
+}
+
+.LogTiltle h1{
+    font-size: 60PX;
+    color: #494848;
+}
+
+
+.contentLTitlE {
+
+    padding: 30px 0px 0px 90px;
+}

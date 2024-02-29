@@ -1,5 +1,7 @@
 import { useRoutes } from 'react-router-dom'
+import { Inicio } from './components/Pages/Inicio/Inicio'
 import { Home } from './components/Pages/Home/Home'
+import { Proyectos } from './components/Pages/Proyectos/Proyectos'
 import {Header} from './components/Layout/Header/Header'
 import { Logo } from './components/Logo/Logo'
 import { Items } from './components/Items/Items'
@@ -21,7 +23,9 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const AppRouts = () =>{
   let routes = useRoutes([
-    { path:'/', element:<Home />},
+    { path:'/', element:<Inicio />},
+    { path:'/home', element:<Home />},
+    { path:'/proyectos', element:<Proyectos />},
     { path:'/services', element:<Services/>},
     { path:'/reference', element:<Reference/>},
     { path:'*', element:<NotFound/>},
@@ -42,8 +46,8 @@ function App() {
         </div>  
         <Navbar>
           <Items content="Inicio" route='/'/>
-          <Items content="Perfil" route='/services'/>
-          <Items content="Proyectos" route='/reference'/>
+          <Items content="Perfil" route='/home'/>
+          <Items content="Proyectos" route='/proyectos'/>
           <Items content="Referencias" route='/reference'/>
           <Items content="Experiencias" route='/reference'/>
        </Navbar>
