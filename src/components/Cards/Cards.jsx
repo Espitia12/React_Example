@@ -1,9 +1,11 @@
 import React from 'react'
+import "./Cards.css"
 
-export const Cards = ({image,titleCard,description}) => {
+
+export const Cards = ({img,titleCard,description}) => {
   return (
     <div className='contentCards'>
-        <img src={image} alt="" />
+        <img className='imgcard' src={img} alt={titleCard} />
         <div className='TitleDescriptionCard'>
             <h2>{titleCard}</h2>
             <p>{description}</p>

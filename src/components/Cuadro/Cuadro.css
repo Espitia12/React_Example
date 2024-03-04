@@ -1,0 +1,16 @@
+.contentReference{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    background: f3f3f3;
+    border: solid;
+    margin: 5px;
+}
+
+.contentReference p {
+    color: black;
+    padding: 10px;
+}

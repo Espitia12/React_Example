@@ -2,7 +2,7 @@ Header{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 30%;
+    width: 50%;
     background: #39a900;
     align-items: center;
 }

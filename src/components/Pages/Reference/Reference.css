@@ -1,0 +1,5 @@
+.content{
+    display: flex;
+    align-content: flex-end;
+    flex-direction: row;
+}
